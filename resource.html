@@ -8,14 +8,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --bg: #0a0a0f; --bg-alpha90: rgba(10,10,15,0.9); --text: #e0e0e0; --text-muted: #a0a0b0; --text-dim: #8888a0;
+      --card-bg: rgba(255,255,255,0.03); --card-border: rgba(255,255,255,0.06); --card-hover-bg: rgba(255,255,255,0.06);
+      --card-hover-border: rgba(108,92,231,0.3); --footer-color: #555;
+      --grad-bg1: rgba(76,0,255,0.08); --grad-bg2: rgba(0,200,255,0.06); --grad-bg3: rgba(255,0,128,0.05);
+      --search-border: rgba(255,255,255,0.1); --search-bg: rgba(255,255,255,0.04); --search-icon: #555;
+    }
+    [data-theme="light"] {
+      --bg: #f5f7fa; --bg-alpha90: rgba(245,247,250,0.95); --text: #1a1a2e; --text-muted: #555570; --text-dim: #666680;
+      --card-bg: rgba(0,0,0,0.03); --card-border: rgba(0,0,0,0.08); --card-hover-bg: rgba(0,0,0,0.05);
+      --card-hover-border: rgba(108,92,231,0.4); --footer-color: #999;
+      --grad-bg1: rgba(76,0,255,0.04); --grad-bg2: rgba(0,200,255,0.03); --grad-bg3: rgba(255,0,128,0.03);
+      --search-border: rgba(0,0,0,0.12); --search-bg: rgba(0,0,0,0.04); --search-icon: #999;
+    }
+
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
       font-family: 'Inter', sans-serif;
-      background: #0a0a0f;
-      color: #e0e0e0;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.7;
       overflow-x: hidden;
+      transition: background 0.4s ease, color 0.4s ease;
     }
     a { text-decoration: none; color: inherit; }
 
@@ -25,12 +41,20 @@
       top: 0; left: 0;
       width: 100%; height: 100%;
       background:
-        radial-gradient(ellipse at 20% 50%, rgba(76, 0, 255, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(0, 200, 255, 0.06) 0%, transparent 50%),
-        radial-gradient(ellipse at 60% 80%, rgba(255, 0, 128, 0.05) 0%, transparent 50%);
+        radial-gradient(ellipse at 20% 50%, var(--grad-bg1) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, var(--grad-bg2) 0%, transparent 50%),
+        radial-gradient(ellipse at 60% 80%, var(--grad-bg3) 0%, transparent 50%);
       z-index: -1;
       pointer-events: none;
     }
+
+    .theme-toggle {
+      width: 42px; height: 42px; border-radius: 50%;
+      border: 1px solid var(--card-border); background: var(--card-bg);
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem; transition: all 0.3s ease;
+    }
+    .theme-toggle:hover { border-color: var(--card-hover-border); transform: rotate(30deg); }
 
     /* ── Navbar ──────────────────────────────── */
     nav {
@@ -41,9 +65,9 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 3rem;
-      background: rgba(10, 10, 15, 0.9);
+      background: var(--bg-alpha90);
       backdrop-filter: blur(20px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      border-bottom: 1px solid var(--card-border);
     }
     .nav-logo {
       font-size: 1.5rem;
@@ -57,12 +81,12 @@
       display: flex;
       align-items: center;
       gap: 0.5rem;
-      color: #a0a0b0;
+      color: var(--text-muted);
       font-weight: 500;
       font-size: 0.95rem;
       transition: color 0.3s;
     }
-    .nav-back:hover { color: #fff; }
+    .nav-back:hover { color: var(--text); }
     .nav-back svg { width: 18px; height: 18px; fill: currentColor; }
 
     /* ── Page Header ─────────────────────────── */
@@ -83,7 +107,7 @@
       background-clip: text;
     }
     .page-header p {
-      color: #8888a0;
+      color: var(--text-dim);
       font-size: 1.1rem;
       margin-top: 0.5rem;
     }
@@ -106,7 +130,7 @@
     }
     .page-header .stat-label {
       font-size: 0.8rem;
-      color: #666;
+      color: var(--text-dim);
       text-transform: uppercase;
       letter-spacing: 1px;
     }
@@ -121,15 +145,15 @@
       width: 100%;
       padding: 0.85rem 1.2rem 0.85rem 3rem;
       border-radius: 50px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      background: rgba(255, 255, 255, 0.04);
-      color: #e0e0e0;
+      border: 1px solid var(--search-border);
+      background: var(--search-bg);
+      color: var(--text);
       font-size: 0.95rem;
       font-family: 'Inter', sans-serif;
       outline: none;
       transition: border-color 0.3s;
     }
-    .search-bar input::placeholder { color: #555; }
+    .search-bar input::placeholder { color: var(--search-icon); }
     .search-bar input:focus { border-color: rgba(108, 92, 231, 0.5); }
     .search-bar svg {
       position: absolute;
@@ -138,7 +162,7 @@
       transform: translateY(-50%);
       width: 18px;
       height: 18px;
-      fill: #555;
+      fill: var(--search-icon);
     }
 
     /* ── Content ──────────────────────────────── */
@@ -164,13 +188,13 @@
       gap: 0.75rem;
       margin-bottom: 1rem;
       padding-bottom: 0.75rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      border-bottom: 1px solid var(--card-border);
     }
     .topic-icon { font-size: 1.5rem; }
     .topic-name {
       font-size: 1.35rem;
       font-weight: 700;
-      color: #fff;
+      color: var(--text);
     }
     .topic-count {
       margin-left: auto;
@@ -193,15 +217,15 @@
       align-items: center;
       gap: 0.75rem;
       padding: 1rem 1.2rem;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
       border-radius: 12px;
       transition: all 0.3s ease;
       cursor: pointer;
     }
     .link-card:hover {
-      background: rgba(255, 255, 255, 0.06);
-      border-color: rgba(108, 92, 231, 0.3);
+      background: var(--card-hover-bg);
+      border-color: var(--card-hover-border);
       transform: translateX(4px);
     }
     .link-card .arrow {
@@ -214,10 +238,10 @@
     .link-card .link-title {
       font-size: 0.92rem;
       font-weight: 500;
-      color: #c0c0d0;
+      color: var(--text-muted);
       flex: 1;
     }
-    .link-card:hover .link-title { color: #fff; }
+    .link-card:hover .link-title { color: var(--text); }
     .link-card .external {
       flex-shrink: 0;
       opacity: 0;
@@ -230,7 +254,7 @@
     .loading, .empty-state, .error-state {
       text-align: center;
       padding: 4rem 2rem;
-      color: #666;
+      color: var(--text-dim);
     }
     .loading .spinner {
       width: 40px;
@@ -249,8 +273,8 @@
     footer {
       text-align: center;
       padding: 2rem 3rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.06);
-      color: #555;
+      border-top: 1px solid var(--card-border);
+      color: var(--footer-color);
       font-size: 0.85rem;
     }
     footer span {
@@ -274,10 +298,13 @@
 
   <nav>
     <a href="index.html" class="nav-logo">&lt;SR /&gt;</a>
-    <a href="index.html#resources" class="nav-back">
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">&#9790;</button>
+      <a href="index.html#resources" class="nav-back">
       <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
       Back to Portfolio
     </a>
+    </div>
   </nav>
 
   <div class="page-header">
@@ -302,6 +329,20 @@
   </footer>
 
   <script>
+    // Theme toggle (shared with index.html via localStorage)
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      document.getElementById('themeToggle').textContent = next === 'light' ? '\u2600' : '\u263E';
+    }
+    (function() {
+      const saved = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', saved);
+      document.getElementById('themeToggle').textContent = saved === 'light' ? '\u2600' : '\u263E';
+    })();
+
     // Resource metadata
     const RESOURCES = {
       dsa_notes: {

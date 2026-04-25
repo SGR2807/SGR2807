@@ -1,58 +1,114 @@
+<div align="center">
+
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;Nice+to+meet+you!;I+am+Shailesh;&center=true&size=30">
-  </a>
-  
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;Nice+to+meet+you!;I+am+Shailesh;&center=true&size=30" alt="Typing SVG" />
+</a>
 
+---
 
-# 👋 Hi, I’m Shailesh Rathod....
-- 👀 SDE@ UKG
-- 🌱 Developer.
+# 👋 Hi, I'm Shailesh Rathod
 
- 
- 
- ![Shailesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=SGR2807&theme=tokyonight&show_icons=true&count_private=true)
- <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
- <h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://x.com/Shailesh28o7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="iamdev" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/shailesh-rathod-73677821a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dev" height="30" width="40" /></a>
-<a href="https://www.instagram.com/shaileshrathod1629/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="the.dev" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/Shailesh_Rathod" target="blank">CF</a>
-</p>
+**`SDE @ UKG | Developer | Builder`**
 
+<img src="https://komarev.com/ghpvc/?username=SGR2807&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="30" height="30"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="30" height="30"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="30" height="30"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="30" height="30"/> </a> <a href="https://dart.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="30" height="30"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="30" height="30"/> </a> <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="30" height="30"/> </a> <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="30" height="30"/> </a> <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="30" height="30"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="30" height="30"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="30" height="30"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="30" height="30"/> </a> <a href="https://kotlinlang.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="30" height="30"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="30" height="30"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="30" height="30"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="30" height="30"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="30" height="30"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="30" height="30"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="30" height="30"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/> </a> </p>
+---
 
-<h2 align="left">Projects</h2>
+<img align="right" alt="Coding" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="400" height="280" />
 
-<b>BitLock - Smart Lock IoT System</b> &mdash; <i>Flutter, Firebase, Arduino, BLE</i>
-<ul>
-<li>Engineered a cross-platform Bluetooth Low Energy (BLE) mobile application using Flutter and Firebase, enabling secure remote unlocking of Arduino-based smart locks with real-time status monitoring on Android and iOS.</li>
-<li>Achieved 1st place at Institute level and Top 5 at Inter-IIT Engineers' Conclave.</li>
-</ul>
+### About Me
 
-<b>Payroll Management Portal</b> &mdash; <i>Spring Boot, Angular, OAuth2, PostgreSQL</i>
-<ul>
-<li>Constructed a full-stack microservices portal enabling administrators to manage employee records, generate monthly payroll with Indian tax calculations, and process leave requests, while providing employees self-service access to salary history and leave submissions.</li>
-<li>Implemented secure architecture with Netflix Eureka for service discovery, Spring Cloud Config Server for centralized configuration, Spring Cloud Gateway for API routing, Angular 17 frontend with Bootstrap 5, and OAuth2/OIDC authentication with role-based access control.</li>
-</ul>
+- 👀 **SDE @ UKG**
+- 🎓 **IIT Mandi** Alumni
+- 🌱 Passionate **Developer** who loves building things
+- 🚀 Always exploring new technologies
+- 💡 Open to collaboration on interesting projects
 
+<br clear="both"/>
 
-<b>Tasky - Goal Manager</b> &mdash; <i>Fluttter, Firebase</i>
-<ul>
-<li>App for self use. Helps you track your goals. Exercise Counter. Daily Habit Tracker</li>
-<li>Various types of visualization provided for the counter. Analyze the counter by days, week duration.</li>
-    <li><a href="https://github.com/SGR2807/storage/blob/main/tasky-release.apk" target="_blank">Download the APP from here</a></li>
-</ul>
+---
 
+<h2 align="center">🤝 Connect with Me</h2>
 
-<p>&nbsp;<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=SGR2807&" alt="SGR2807" /></p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=SGR2807&show_icons=true&locale=en&layout=compact" alt="SGR2807" /></p>
-<br>
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Shailesh28o7) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shailesh-rathod-73677821a/) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shaileshrathod1629/) [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Shailesh_Rathod) [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Shailesh28/)
 
+---
 
-<p align="center">
-        <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
-</p>
+<h2 align="center">🛠 Languages & Tools</h2>
+
+<div align="center">
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-412991?style=for-the-badge&logo=openai&logoColor=white) ![RAG Pipelines](https://img.shields.io/badge/RAG_Pipelines-FF6F00?style=for-the-badge&logo=databricks&logoColor=white) ![Agentic AI](https://img.shields.io/badge/Agentic_AI-00B4D8?style=for-the-badge&logo=robot-framework&logoColor=white)
+</div>
+
+---
+
+<h2 align="center">🚀 Projects</h2>
+
+<table align="center">
+<tr>
+<td width="50%">
+
+### BitLock - Smart Lock IoT System
+**Flutter | Firebase | Arduino | BLE**
+
+- Engineered a cross-platform BLE mobile app using Flutter and Firebase, enabling secure remote unlocking of Arduino-based smart locks with real-time status monitoring on Android and iOS.
+- **1st place** at Institute level and **Top 5** at Inter-IIT Engineers' Conclave.
+
+</td>
+<td width="50%">
+
+### Payroll Management Portal
+**Spring Boot | Angular | OAuth2 | PostgreSQL**
+
+- Built a full-stack microservices portal for employee management, payroll generation with Indian tax calculations, and leave processing.
+- Implemented Netflix Eureka, Spring Cloud Config, Gateway, Angular 17 + Bootstrap 5, and OAuth2/OIDC with role-based access control.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### Tasky - Goal Manager
+**Flutter | Firebase**
+
+- Personal productivity app for goal tracking, exercise counting, and daily habit management.
+- Rich visualizations for counters with day/week duration analysis.
+- [Download the APK](https://github.com/SGR2807/storage/blob/main/tasky-release.apk)
+
+</td>
+<td width="50%">
+
+<div align="center">
+<br/><br/>
+
+*More projects coming soon...*
+
+<br/><br/>
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 align="center">📊 GitHub Stats</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SGR2807&theme=tokyonight&show_icons=true&count_private=true&hide_border=true&border_radius=10" alt="Shailesh's GitHub Stats" height="180"/>
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=SGR2807&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&border_radius=10" alt="Top Languages" height="180"/>
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=fff&animation=twinkling&fontAlignY=65" width="100%" alt="Footer"/>
+
+</div>

@@ -1,0 +1,59 @@
+[
+  {
+    "topic": "Arrays & Strings",
+    "icon": "📊",
+    "links": [
+      { "title": "Two Sum - LeetCode", "url": "https://leetcode.com/problems/two-sum/" },
+      { "title": "Kadane's Algorithm", "url": "https://leetcode.com/problems/maximum-subarray/" },
+      { "title": "Sliding Window Pattern", "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/" },
+      { "title": "Two Pointers Technique", "url": "https://leetcode.com/problems/container-with-most-water/" }
+    ]
+  },
+  {
+    "topic": "Linked Lists",
+    "icon": "🔗",
+    "links": [
+      { "title": "Reverse Linked List", "url": "https://leetcode.com/problems/reverse-linked-list/" },
+      { "title": "Detect Cycle", "url": "https://leetcode.com/problems/linked-list-cycle/" },
+      { "title": "Merge Two Sorted Lists", "url": "https://leetcode.com/problems/merge-two-sorted-lists/" }
+    ]
+  },
+  {
+    "topic": "Trees & Graphs",
+    "icon": "🌳",
+    "links": [
+      { "title": "Binary Tree Inorder Traversal", "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/" },
+      { "title": "Lowest Common Ancestor", "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/" },
+      { "title": "Number of Islands (BFS/DFS)", "url": "https://leetcode.com/problems/number-of-islands/" },
+      { "title": "Course Schedule (Topological Sort)", "url": "https://leetcode.com/problems/course-schedule/" }
+    ]
+  },
+  {
+    "topic": "Dynamic Programming",
+    "icon": "🧩",
+    "links": [
+      { "title": "Climbing Stairs", "url": "https://leetcode.com/problems/climbing-stairs/" },
+      { "title": "Longest Common Subsequence", "url": "https://leetcode.com/problems/longest-common-subsequence/" },
+      { "title": "0/1 Knapsack Pattern", "url": "https://leetcode.com/problems/partition-equal-subset-sum/" },
+      { "title": "Edit Distance", "url": "https://leetcode.com/problems/edit-distance/" }
+    ]
+  },
+  {
+    "topic": "Stacks & Queues",
+    "icon": "📚",
+    "links": [
+      { "title": "Valid Parentheses", "url": "https://leetcode.com/problems/valid-parentheses/" },
+      { "title": "Min Stack", "url": "https://leetcode.com/problems/min-stack/" },
+      { "title": "Next Greater Element", "url": "https://leetcode.com/problems/next-greater-element-i/" }
+    ]
+  },
+  {
+    "topic": "Binary Search",
+    "icon": "🔍",
+    "links": [
+      { "title": "Binary Search Basics", "url": "https://leetcode.com/problems/binary-search/" },
+      { "title": "Search in Rotated Sorted Array", "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/" },
+      { "title": "Median of Two Sorted Arrays", "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/" }
+    ]
+  }
+]

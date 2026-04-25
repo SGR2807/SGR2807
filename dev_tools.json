@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "IDE & Editor",
+    "icon": "💻",
+    "links": [
+      { "title": "VS Code Tips & Tricks", "url": "https://code.visualstudio.com/docs/getstarted/tips-and-tricks" },
+      { "title": "IntelliJ IDEA Shortcuts", "url": "https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html" }
+    ]
+  },
+  {
+    "topic": "Git & Version Control",
+    "icon": "🔀",
+    "links": [
+      { "title": "Git Cheat Sheet", "url": "https://education.github.com/git-cheat-sheet-education.pdf" },
+      { "title": "Interactive Git Branching", "url": "https://learngitbranching.js.org/" },
+      { "title": "Conventional Commits", "url": "https://www.conventionalcommits.org/" }
+    ]
+  },
+  {
+    "topic": "DevOps & Cloud",
+    "icon": "☁️",
+    "links": [
+      { "title": "Docker Getting Started", "url": "https://docs.docker.com/get-started/" },
+      { "title": "Kubernetes Basics", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/" },
+      { "title": "GitHub Actions CI/CD", "url": "https://docs.github.com/en/actions/quickstart" }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "topic": "Large Language Models",
+    "icon": "🧠",
+    "links": [
+      { "title": "Attention Is All You Need (Transformers Paper)", "url": "https://arxiv.org/abs/1706.03762" },
+      { "title": "LLM Fundamentals - Hugging Face", "url": "https://huggingface.co/docs/transformers/index" },
+      { "title": "Prompt Engineering Guide", "url": "https://www.promptingguide.ai/" }
+    ]
+  },
+  {
+    "topic": "RAG Pipelines",
+    "icon": "🔄",
+    "links": [
+      { "title": "RAG Explained", "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/" },
+      { "title": "Vector Databases Overview", "url": "https://www.pinecone.io/learn/vector-database/" },
+      { "title": "LangChain RAG Tutorial", "url": "https://python.langchain.com/docs/tutorials/rag/" }
+    ]
+  },
+  {
+    "topic": "Agentic AI",
+    "icon": "🤖",
+    "links": [
+      { "title": "LangChain Agents", "url": "https://python.langchain.com/docs/how_to/#agents" },
+      { "title": "ReAct Pattern", "url": "https://arxiv.org/abs/2210.03629" },
+      { "title": "Building AI Agents - LangGraph", "url": "https://langchain-ai.github.io/langgraph/" }
+    ]
+  }
+]

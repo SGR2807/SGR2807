@@ -1,0 +1,40 @@
+[
+  {
+    "topic": "Fundamentals",
+    "icon": "🏗️",
+    "links": [
+      { "title": "CAP Theorem Explained", "url": "https://www.educative.io/blog/what-is-cap-theorem" },
+      { "title": "Load Balancing", "url": "https://www.nginx.com/resources/glossary/load-balancing/" },
+      { "title": "Caching Strategies", "url": "https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/" },
+      { "title": "Database Sharding", "url": "https://www.digitalocean.com/community/tutorials/understanding-database-sharding" }
+    ]
+  },
+  {
+    "topic": "Microservices",
+    "icon": "🧱",
+    "links": [
+      { "title": "Microservices Architecture Pattern", "url": "https://microservices.io/patterns/microservices.html" },
+      { "title": "API Gateway Pattern", "url": "https://microservices.io/patterns/apigateway.html" },
+      { "title": "Service Discovery", "url": "https://microservices.io/patterns/service-registry.html" },
+      { "title": "Circuit Breaker Pattern", "url": "https://microservices.io/patterns/reliability/circuit-breaker.html" }
+    ]
+  },
+  {
+    "topic": "Case Studies",
+    "icon": "📐",
+    "links": [
+      { "title": "Design URL Shortener", "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers/system-design-tinyurl" },
+      { "title": "Design Chat System", "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers/system-design-whatsapp" },
+      { "title": "Design Rate Limiter", "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers/system-design-the-rate-limiter" }
+    ]
+  },
+  {
+    "topic": "Databases",
+    "icon": "🗄️",
+    "links": [
+      { "title": "SQL vs NoSQL", "url": "https://www.mongodb.com/nosql-explained/nosql-vs-sql" },
+      { "title": "Database Indexing", "url": "https://use-the-index-luke.com/" },
+      { "title": "ACID Properties", "url": "https://www.geeksforgeeks.org/acid-properties-in-dbms/" }
+    ]
+  }
+]
